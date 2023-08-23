@@ -1,6 +1,68 @@
-.icon {
-    background: url('assets/icons/favicon.ico');
-    height: 16px;
-    width: 16px;
-    display: block;
-  }
+hr.star-dark:after {
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+}
+hr.about:after {
+  position: relative;
+  top: -0.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: "";
+  font-family: FontAwesome;
+  font-size: 2em;
+  color: #2c3e50;
+  background-color: #fff;
+}
+hr.about {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-color: #2c3e50;
+}
+
+hr.portfolio:after {
+  position: relative;
+  top: -0.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: "";
+  font-family: FontAwesome;
+  font-size: 2em;
+  color: #2c3e50;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+}
+hr.portfolio {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-color: #2c3e50;
+}
+
+hr.contact:after {
+  position: relative;
+  top: -0.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: "";
+  font-family: FontAwesome;
+  font-size: 2em;
+  color: #2c3e50;
+  background-color: #fff;
+}
+hr.contact {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-color: #2c3e50;
+}
